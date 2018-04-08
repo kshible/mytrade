@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6EEE7B1E-E61B-4D77-B947-DDA03F4C536E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Trade.My.MyApplication</StartupObject>
+    <RootNamespace>Trade</RootNamespace>
+    <AssemblyName>Trade</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Trade.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Trade.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="actions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actions.Designer.vb">
+      <DependentUpon>actions.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseDateTimePicker.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Buttonclaccez.vb" />
+    <Compile Include="Buttonsetting.Designer.vb">
+      <DependentUpon>Buttonsetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Buttonsetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FBasketButoons.Designer.vb">
+      <DependentUpon>FBasketButoons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FBasketButoons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbuttons.Designer.vb">
+      <DependentUpon>Fbuttons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fbuttons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWait.Designer.vb">
+      <DependentUpon>FWait.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWait.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="improvcods.Designer.vb">
+      <DependentUpon>improvcods.vb</DependentUpon>
+    </Compile>
+    <Compile Include="improvcods.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menuus.vb" />
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resizer.vb" />
+    <Compile Include="Sales.Designer.vb">
+      <DependentUpon>Sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SR1.Designer.vb">
+      <DependentUpon>SR1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SR1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trademoudle.vb" />
+    <Compile Include="UserControlsettings.Designer.vb">
+      <DependentUpon>UserControlsettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlsettings.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="users.Designer.vb">
+      <DependentUpon>users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="users.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="actions.resx">
+      <DependentUpon>actions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buttonsetting.resx">
+      <DependentUpon>Buttonsetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FBasketButoons.resx">
+      <DependentUpon>FBasketButoons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbuttons.resx">
+      <DependentUpon>Fbuttons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWait.resx">
+      <DependentUpon>FWait.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="improvcods.resx">
+      <DependentUpon>improvcods.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR1.resx">
+      <DependentUpon>SR1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlsettings.resx">
+      <DependentUpon>UserControlsettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users.resx">
+      <DependentUpon>users.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="myicons\bank_down_64.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

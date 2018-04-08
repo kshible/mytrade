@@ -1,0 +1,8 @@
+D:\Trade\bgkdate\bin\Debug\bgkdate.dll
+D:\Trade\bgkdate\bin\Debug\bgkdate.pdb
+D:\Trade\bgkdate\bin\Debug\bgkdate.xml
+D:\Trade\bgkdate\obj\Debug\bgkdate.Resources.resources
+D:\Trade\bgkdate\obj\Debug\bgkdate.vbproj.GenerateResource.Cache
+D:\Trade\bgkdate\obj\Debug\bgkdate.dll
+D:\Trade\bgkdate\obj\Debug\bgkdate.xml
+D:\Trade\bgkdate\obj\Debug\bgkdate.pdb

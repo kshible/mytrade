@@ -1,0 +1,41 @@
+C:\Users\user\AppData\Local\Temporary Projects\Trade\bin\Debug\Trade.exe
+C:\Users\user\AppData\Local\Temporary Projects\Trade\bin\Debug\Trade.pdb
+C:\Users\user\AppData\Local\Temporary Projects\Trade\bin\Debug\Trade.xml
+C:\Users\user\AppData\Local\Temporary Projects\Trade\obj\x86\Debug\Trade.actions.resources
+C:\Users\user\AppData\Local\Temporary Projects\Trade\obj\x86\Debug\Trade.Resources.resources
+C:\Users\user\AppData\Local\Temporary Projects\Trade\obj\x86\Debug\Trade.vbproj.GenerateResource.Cache
+C:\Users\user\AppData\Local\Temporary Projects\Trade\obj\x86\Debug\Trade.exe
+C:\Users\user\AppData\Local\Temporary Projects\Trade\obj\x86\Debug\Trade.xml
+C:\Users\user\AppData\Local\Temporary Projects\Trade\obj\x86\Debug\Trade.pdb
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\obj\x86\Debug\Trade.exe
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\obj\x86\Debug\Trade.xml
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\obj\x86\Debug\Trade.pdb
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\bin\Debug\Trade.exe
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\bin\Debug\Trade.pdb
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\bin\Debug\Trade.xml
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\obj\x86\Debug\Trade.actions.resources
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\obj\x86\Debug\Trade.Resources.resources
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\obj\x86\Debug\Trade.vbproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\obj\x86\Debug\Trade.Sales.resources
+C:\Users\user\documents\visual studio 2010\Projects\Trade\Trade\obj\x86\Debug\Trade.users.resources
+D:\mant\Trade\Trade\obj\x86\Debug\Trade.exe
+D:\mant\Trade\Trade\obj\x86\Debug\Trade.xml
+D:\mant\Trade\Trade\obj\x86\Debug\Trade.pdb
+D:\Trade\Trade\bin\Debug\Trade.exe
+D:\Trade\Trade\bin\Debug\Trade.pdb
+D:\Trade\Trade\bin\Debug\Trade.xml
+D:\Trade\Trade\obj\x86\Debug\Trade.actions.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.improvcods.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.Resources.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.Sales.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.UserControlsettings.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.users.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.vbproj.GenerateResource.Cache
+D:\Trade\Trade\obj\x86\Debug\Trade.exe
+D:\Trade\Trade\obj\x86\Debug\Trade.xml
+D:\Trade\Trade\obj\x86\Debug\Trade.pdb
+D:\Trade\Trade\obj\x86\Debug\Trade.Fbuttons.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.FBasketButoons.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.Buttonsetting.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.SR1.resources
+D:\Trade\Trade\obj\x86\Debug\Trade.FWait.resources
